@@ -309,9 +309,9 @@ The module is now complete!🥇
 This module has introduced you to the theory of coordinate reference systems and given you some experience of working with coordinate reference systems in QGIS. You have been introduced to the methods used to assign coordinates and map spatial data. We have covered the difference between geographic and projected coordinate systems and discussed the inherent issues that come with projecting spatial data. 
 
 ---
-##5. Author and acknowledgement
+## 5. Author and acknowledgement
 
-William Procter
+**Author:** William Procter
 
-**Contact**: gissupport@cefas.co.uk
+**Contact:** gissupport@cefas.co.uk
 
