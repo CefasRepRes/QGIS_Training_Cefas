@@ -1,4 +1,4 @@
-# QGIS training module 4 - Coordinate Reference Systems
+# QGIS training module 1 - Coordinate Reference Systems
 
 ---
 
@@ -272,7 +272,7 @@ In a new QGIS project (Project > New) load the ‘UK_Ports.shp’ shapefile from
 
 #### 2.	Reproject layer
 
-Project this layer to the British National Grid coordinate system (EPSG:27700) using one of the methods used in Part 2 of this module. You will be asked to choose a transformation when reprojecting from WGS 84 to the British National Grid. Choose the first option with an accuracy of 1m. If you get the following error message <span style="color:red">This transformation requires the grid file “OSTN15_NTv2_OSGBtoETRS.gsb”, which is not available for use on the system</span>, follow this link for [instructions on installing the necessary files](https://github.com/CefasRepRes/QGIS_Training_Cefas/Module_1_Coordinate_Reference_Systems/BNG_Transformation.pdf).
+Project this layer to the British National Grid coordinate system (EPSG:27700) using one of the methods used in Part 2 of this module. You will be asked to choose a transformation when reprojecting from WGS 84 to the British National Grid. Choose the first option with an accuracy of 1m. If you get the following error message: *'This transformation requires the grid file “OSTN15_NTv2_OSGBtoETRS.gsb”, which is not available for use on the system'*, follow this link for [instructions on installing the necessary files](https://github.com/CefasRepRes/QGIS_Training_Cefas/Module_1_Coordinate_Reference_Systems/BNG_Transformation.pdf).
 
 ![](https://user-images.githubusercontent.com/47147296/92701740-4344d200-f348-11ea-8e84-56981146de18.png)
 
