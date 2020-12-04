@@ -6,18 +6,6 @@
 
 In this module we introduce the concept of coordinate reference systems (CRS). We introduce geographic and projected coordinate systems and discuss the difficulties with transferring the locations from a curved surface (3D) to a flat surface (2D). In the second part of this module we present a tutorial introducing the basics of working with CRS in QGIS, setting coordinate systems and projecting data. 
 
-### 1.1.	Data Folder 
-
-Please, create your own working space on your local drive and save the data and instructions for this module  from https://github.com/CefasRepRes/GI_Training/tree/master/GI_Software/QGIS/Coordinate_Reference_System/Data.
-  
-The data folder contains the following, required for the tutorial section of this module:
-
-* Bathymetry.tif
-*	world_boundaries.shp
-*	UK_Ports.shp
-
-For the tutorial section of this module, please skip to here.
-
 ---
 
 ## 2. Coordinate Reference System basics
@@ -27,7 +15,7 @@ One of the difficulties with applying a CRS to the Earth is that the planet is n
 
 **Geoid**
 
-The geoid (Figure 1) is a mathematical approximation of the shape of the Earth. This approximation is based on the impacts of gravity on the Earth’s surface, determining its shape. The geoid is lumpy, but does not change, unlike the Earth. The geoid is a model of global mean sea level used to measure elevation.
+The geoid (Figure 1) is a mathematical approximation of the shape of the Earth. This approximation is based on the impacts of gravity on the Earth’s surface, determining its shape. The geoid is less lumpy than the Earth. The geoid is a model of global mean sea level used to measure elevation.
 
 ![](https://user-images.githubusercontent.com/47147296/92700772-1f34c100-f347-11ea-99ef-21ab1be1e141.png)
 
@@ -81,7 +69,7 @@ In order to better understand how these elements affect a coordinate reference s
 
 *Figure 5. Example of how geographic coordinates are calculated.*
 
-The line of 0 latitude is the equator, latitude values are measured relative to the equator ranging from 900 at the north pole to -900 at the south pole. The line of 0 longitude is called the Prime Meridian and it passes through Greenwich, England. Longitude values are measured relative to the prime meridian, ranging from 0° to 1800 when travelling east and 0° to -1800 when travelling west. Latitude and longitude can be expressed as either decimal degrees or degrees, minutes, and seconds. 
+The line of 0 latitude is the equator, latitude values are measured relative to the equator ranging from 90 at the north pole to -90 at the south pole. The line of 0 longitude is called the Prime Meridian and it passes through Greenwich, England. Longitude values are measured relative to the prime meridian, ranging from 0° to 180 when travelling east and 0° to -180 when travelling west. Latitude and longitude can be expressed as either decimal degrees or degrees, minutes, and seconds. 
 
 ![Figure 6. Example of latitude and longitude coordinates of a geographic coordinate system.](https://user-images.githubusercontent.com/47147296/92701048-7175e200-f347-11ea-89a8-6b438fc4fd7b.png)
 
@@ -99,11 +87,11 @@ When projecting a 3D grid to a 2D grid (flattening) there will always be a disto
 
 ##### 2.1.2.1. Problems with projections
  
-Any time a projection is used, area, shape, angle and distance, or a combination of these will be distorted. To perform measurements and analysis of your geospatial data most accurately, the correct projection needs to be used. Choosing a projection is extremely important and the projection you use is dependent on location and the aspects of your data’s spatial attributes that you want to preserve? For example, if your work focuses on measuring distance between points, you should use a map projection that provides high accuracy for distances. As a result of choosing this projection, it is likely that other parameters such as area and shape will be distorted and therefore inaccurate.
+Any time a projection is used, area, shape, angle and distance, or a combination of these will be distorted. To perform measurements and analysis of your geospatial data most accurately, the correct projection needs to be used. Choosing a projection is extremely important and the projection you use is dependent on location and the aspects of your data’s spatial attributes that you want to preserve. For example, if your work focuses on measuring distance between points, you should use a map projection that provides high accuracy for distances. As a result of choosing this projection, it is likely that other parameters such as area and shape will be distorted and therefore inaccurate.
 
 Projections can be grouped by the property that they best preserve: 
 
-**Conformal *Projections** are used when preserving shape and angular relationships is important. These are most accurate for small areas as angular relationships and shapes become less reliable over long distances. This type of projection will result in distortion of the area of objects, making area calculations incorrect. An example of a conformal projection is the World Mercator projection (Figure 8). This is most apparent in the Mercator projection as Greenland is shown to be similar in size to Africa, when Africa is in fact roughly 14 times larger. 
+**Conformal Projections** are used when preserving shape and angular relationships is important. These are most accurate for small areas as angular relationships and shapes become less reliable over long distances. This type of projection will result in distortion of the area of objects, making area calculations incorrect. An example of a conformal projection is the World Mercator projection (Figure 8). This is most apparent in the Mercator projection as Greenland is shown to be similar in size to Africa, when Africa is in fact roughly 14 times larger. 
 
 ![Figure 8. ESRI Ocean basemap with the World Mercator projection applied. ](https://user-images.githubusercontent.com/47147296/92701123-8488b200-f347-11ea-8c75-921f4f8631c1.png)
 
@@ -127,7 +115,7 @@ Projections can be grouped by the property that they best preserve:
 A transformation is a mathematical method that converts coordinates in one geographic coordinate system to another geographic coordinate system. A transformation is necessary when changing between coordinate systems based on different datums. An example of this is the transformation of British data from the WGS 84 to the OSGB 36, from the World Geodetic System 1984 datum to the Ordnance Survey of Great Britain 1936 datum.  
 
 **Projection**
-Projections take data in a geographic coordinate system and changes it to a projected coordinate system. Projections use a mathematical calculation to convert the coordinate system used on the 3D surface of a GCS to the 2D grid of a projected coordinate system. If projecting from a GCS to a PCS that is based on a different geographic datum, a transformation must first be performed. 
+Projections take data in a geographic coordinate system (degrees) and changes it to a projected coordinate system (meters). Projections use a mathematical calculation to convert the coordinate system used on the 3D surface of a GCS to the 2D grid of a projected coordinate system. If projecting from a GCS to a PCS that is based on a different geographic datum, a transformation must first be performed. 
 
 ![Figure 10. Earth represented using geographic and projected coordinate systems. ](https://user-images.githubusercontent.com/47147296/92701257-aa15bb80-f347-11ea-88b9-464df138df6f.png)
 
@@ -141,13 +129,18 @@ Projections take data in a geographic coordinate system and changes it to a proj
 
 ## 3. Working with Coordinate Reference Systems in QGIS
 
-### 3.1. Data Folder
+### 3.1. Data and video instructions
 
-Data required for this tutorial is stored in : https://github.com/CefasRepRes/GI_Training/tree/master/GI_Software/QGIS/Coordinate_Reference_System/Data
+To access data for this module, please contact us at gissupport@cefas.co.uk and we will share the data with you.
+  
+The data folder contains the following:
 
-Video instructions for this tutorial can be found in: [](\\lowfilecds\Function\GIS_Training\QGIS\in_development_Module4_CRS\Instructions)
+**add the table here decsribing the data>>**
 
-**Part 1: Setting the Coordinate Reference System in QGIS**
+* Bathymetry.tif
+*	world_boundaries.shp
+*	UK_Ports.shp
+
 
 #### 1. Start a new project
 
@@ -174,7 +167,7 @@ The layer Coordinate Reference System can be set by right-clicking on the layer 
 
 **Part 2: Reprojecting vector data**
 
-When we use spatial data in QGIS it is sometimes necessary to reproject this data, whether it is downloaded from an online source or is found in an internal repository of spatial data. Projection is often the first step in geospatial analysis before other measurements and calculations can be made. Finding and using the correct projection ensures your analysis is as accurate as it can be. 
+If data does not share the same CRS, it is necessary to reproject it. Projection is often the first step in geospatial analysis before other measurements and calculations can be made. Using the correct projection ensures your analysis is as accurate as possible.
 
 #### 1. Load vector data
 
@@ -200,7 +193,7 @@ Back on the main screen, we can see the coordinates of a location by moving the 
 
 #### 3. Change CRS
 
-One way of visualising this data in a projected system of your choice is to change the project CRS. To do this, click the icon in the bottom right hand corner, or select **Project > Properties > CRS** and select a projected coordinate system from the list. One of the easiest ways to select a CRS is by searching by its EPSG code. In this example we will project to the Lambert Azimuthal Equal-Area projection for Europe (EPSG: 3035). 
+One way of visualising this data in a projected system of your choice is to change the project CRS. To do this, click the icon in the bottom right hand corner, or select **Project > Properties > CRS** and select a projected coordinate system from the list. One of the easiest ways to select a CRS is by searching by its EPSG code. In this example, we will project to the Lambert Azimuthal Equal-Area projection for Europe (EPSG: 3035). 
 
 When doing this, multiple transformations options are available. Select the first option, notice there is a column which indicates the accuracy of this transformation, in this case we are transforming this data to within an accuracy of 1 meter. Choosing the most accurate transformation is crucial when undertaking small scale spatial analyses and calculations, for broader scale work or when producing maps without performing analysis, a transformation with lower accuracy can be chosen. 
 
@@ -279,7 +272,7 @@ In a new QGIS project (Project > New) load the ‘UK_Ports.shp’ shapefile from
 
 #### 2.	Reproject layer
 
-Project this layer to the British National Grid coordinate system (EPSG:27700) using one of the methods used in Part 2 of this module. You will be asked to choose a transformation when reprojecting from WGS 84 to the British National Grid. Choose the first option with an accuracy of 1m. If you get the following error message (\textcolor{red}{This transformation requires the grid file “OSTN15_NTv2_OSGBtoETRS.gsb”, which is not available for use on the system}), follow this link for [instructions on installing the necessary files](https://github.com/CefasRepRes/GI_Training/blob/master/GI_Software/QGIS/Coordinate_Reference_System/Instructions/BNG_Transformation.pdf).
+Project this layer to the British National Grid coordinate system (EPSG:27700) using one of the methods used in Part 2 of this module. You will be asked to choose a transformation when reprojecting from WGS 84 to the British National Grid. Choose the first option with an accuracy of 1m. If you get the following error message <span style="color:red">This transformation requires the grid file “OSTN15_NTv2_OSGBtoETRS.gsb”, which is not available for use on the system</span>, follow this link for [instructions on installing the necessary files](https://github.com/CefasRepRes/QGIS_Training_Cefas/Module_1_Coordinate_Reference_Systems/BNG_Transformation.pdf).
 
 ![](https://user-images.githubusercontent.com/47147296/92701740-4344d200-f348-11ea-8e84-56981146de18.png)
 
@@ -288,7 +281,7 @@ Once you have successfully reprojected your layer to BNG, in the layer informati
 
 #### 3.	Open attribute table and enable editing
 
-Open the layers attribute table and click the pencil in the top left of the attribute table tab, this enables allows you to edit the table (***1***). Next, open the field calculator (***2**) so we can generate the northing and easting coordinates. 
+Open the layers attribute table and click the pencil ![image](https://user-images.githubusercontent.com/47147296/101175751-73e19280-363d-11eb-947b-c7bbd9325855.png) in the top left of the attribute table tab, this enables allows you to edit the table (***1***). Next, open the field calculator (***2**) ![image](https://user-images.githubusercontent.com/47147296/101175919-adb29900-363d-11eb-91c7-e9fdeb1c43d7.png) so we can generate the northing and easting coordinates. 
  
 ![](https://user-images.githubusercontent.com/47147296/92701770-4cce3a00-f348-11ea-88c2-07745349df56.png)
 
@@ -300,7 +293,7 @@ Within the field calculator, add a new column named “easting” in the ‘Outp
 ![](https://user-images.githubusercontent.com/47147296/92701797-5788cf00-f348-11ea-9a5f-3c0ce19a6de7.png)
 
  
-In the field calculator (***4**) type the expression ***x($geometry)** this expression will return the X coordinate value of each point in our layer. As our layer is in the BNG coordinate system, this value will be the easting value. Click OK. This will give add a column to our table with the easting values. 
+In the field calculator (***4**) type the expression ***x($geometry)** this expression will return the X coordinate value of each point in the layer CRS. As our layer is in the BNG coordinate system, this value will be the easting value in meters. Click OK. This will add a column table with the easting values. 
 
 Repeat the process, name the column “northing” and change the expression to ***y($geometry)**. We will now have easting and northing coordinates for each point in our UK ports vector layer.
 
@@ -315,11 +308,6 @@ The module is now complete!🥇
 
 This module has introduced you to the theory of coordinate reference systems and given you some experience of working with coordinate reference systems in QGIS. You have been introduced to the methods used to assign coordinates and map spatial data. We have covered the difference between geographic and projected coordinate systems and discussed the inherent issues that come with projecting spatial data. 
 
-The CRS tutorial has introduced you to using CRS in QGIS and has covered:
-
-*	Setting coordinate reference systems in QGIS
-*	Reprojecting vector and raster data
-*	Generating coordinates  
 
 
 
