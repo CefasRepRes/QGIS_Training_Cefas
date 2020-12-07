@@ -1,4 +1,4 @@
-# QGIS Training module 2 – Map creation and visualisation 
+# QGIS Training Module 2 – Map creation and visualisation 
 
 ---
 
@@ -101,7 +101,15 @@ Congratulations, you just finished Cefas QGIS Training Module 2 🥇🥇
 
 ---
 
-## 3. Auhtors and acknowledgement
+## 3. Additional Resources
+
+https://www.qgistutorials.com/en/docs/3/making_a_map.html
+
+https://www.youtube.com/watch?v=6__nPo96d2o
+
+---
+
+## 4. Auhtor and Contact
 
 **Author:** Rose Nicholson and Lenka Fronkova
 
