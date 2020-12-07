@@ -1,4 +1,4 @@
-# QGIS training module 1 - Coordinate Reference Systems
+# QGIS Training Module 1 - Coordinate Reference Systems
 
 ---
 
@@ -309,7 +309,17 @@ The module is now complete!🥇
 This module has introduced you to the theory of coordinate reference systems and given you some experience of working with coordinate reference systems in QGIS. You have been introduced to the methods used to assign coordinates and map spatial data. We have covered the difference between geographic and projected coordinate systems and discussed the inherent issues that come with projecting spatial data. 
 
 ---
-## 5. Author and acknowledgement
+
+## 5. Additional Resources
+
+https://docs.qgis.org/3.4/en/docs/user_manual/working_with_projections/working_with_projections.html
+https://docs.qgis.org/2.8/en/docs/gentle_gis_introduction/coordinate_reference_systems.html
+https://www.youtube.com/watch?v=Z41Dt7_R180
+https://www.earthdatascience.org/courses/earth-analytics/spatial-data-r/intro-to-coordinate-reference-systems/
+
+---
+
+## 6. Author and acknowledgement
 
 **Author:** William Procter
 
