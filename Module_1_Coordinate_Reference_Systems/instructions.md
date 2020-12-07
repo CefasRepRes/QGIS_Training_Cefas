@@ -313,8 +313,11 @@ This module has introduced you to the theory of coordinate reference systems and
 ## 5. Additional Resources
 
 https://docs.qgis.org/3.4/en/docs/user_manual/working_with_projections/working_with_projections.html
+
 https://docs.qgis.org/2.8/en/docs/gentle_gis_introduction/coordinate_reference_systems.html
+
 https://www.youtube.com/watch?v=Z41Dt7_R180
+
 https://www.earthdatascience.org/courses/earth-analytics/spatial-data-r/intro-to-coordinate-reference-systems/
 
 ---
