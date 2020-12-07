@@ -1,4 +1,4 @@
-# QGIS Training module 3 – Data Visualisation and Query 
+# QGIS Training Module 3 – Data Visualisation and Query 
 
 ---
 
@@ -123,7 +123,15 @@ Congratulations, you just completed Cefas QGIS Training Module 3 🥇 🥇 🥇
 
 ---
 
-## 4. Authors and acknowledgement
+## 4. Additional Resources
+
+https://docs.qgis.org/3.10/en/docs/training_manual/basic_map/symbology.html#basic-ty
+
+https://www.qgistutorials.com/en/docs/3/basic_vector_styling.html
+
+---
+
+## 5. Author and Contact
 
 **Author:** Lenka Fronkova
 
