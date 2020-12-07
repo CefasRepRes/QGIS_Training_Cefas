@@ -322,7 +322,7 @@ https://www.earthdatascience.org/courses/earth-analytics/spatial-data-r/intro-to
 
 ---
 
-## 6. Author and acknowledgement
+## 6. Author and Contact
 
 **Author:** William Procter
 
