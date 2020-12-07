@@ -329,6 +329,8 @@ Close the QGIS document – it is not necessary to save it.
 
 ## 6. Conclusion
 
+This module is now complete! 🥇🥇🥇🥇🥇
+
 You have now completed this module, and should be able to:
 -	Load raster files
 -	Manipulate raster files to be ready for display and analysis
@@ -348,25 +350,8 @@ https://jncc.gov.uk/our-work/marine-habitat-data-product-eunis-level-3-combined-
 https://www.ordnancesurvey.co.uk/opendatadownload/products.html
 
 
-## 8. Acknowledgement
+## 8. Author and acknowledgement
 
-### 8.1. Authors
+**Author:** Richard Harrod
 
-**Tutorial content and instructions:**
-Richard Harrod (richard.harrod@cefas.co.uk)
-
-**Markdown:**
-Lenka Fronkova (lenka.fronkova@cefas.co.uk)
-
-### 8.2. Data Resources
-Datasets not listed in the table were created specifically for this module by Cefas.
-
-
-
-
-
-
-
-
-
-
+**Contact:** gissupport@cefas.co.uk
