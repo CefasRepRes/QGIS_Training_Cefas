@@ -21,7 +21,7 @@ The repository consists of the following modules:
 
 * **Module 4 Digitisation**
 
-* **Module 5 Raster**
+* **Module 5 Raster in QGIS**
 
 
 Each module includes instructions in both PDF and markdwon format. There is also a link to a video which supplements the written instructions. To access the video and data, please contact us at gissupport@cefas.co.uk, stating the module name that you would like to get access to. We recommend accessing both the written instruction and the video in order to benefit from the learning experience these offer to their maximum.
