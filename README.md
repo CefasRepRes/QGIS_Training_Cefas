@@ -4,7 +4,7 @@
 
 ![image](https://user-images.githubusercontent.com/47147296/101342323-4d5c6b00-387a-11eb-8cf4-99deb7fa0089.png)
 
-![image](https://user-images.githubusercontent.com/47147296/101342167-16865500-387a-11eb-8779-1522b2d8637e.png)
+![image](https://user-images.githubusercontent.com/47147296/101466141-b30f2c80-3938-11eb-80b4-9f1e3e504903.png)
 
 
 This repository contains QGIS training modules developed by Cefas in 2020/2021. The modules are standalone and they can be taken in any order. No previous knowledge of QGIS or GIS is required to complete these modules. 
