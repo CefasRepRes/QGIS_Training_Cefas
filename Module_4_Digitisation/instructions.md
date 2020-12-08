@@ -85,7 +85,7 @@ Congratulations, you have just completed Cefas QGIS Training module 4 🥇 🥇 
 
 ---
 
-## 3. Auhtors and Acknowledgement
+## 3. Auhtors and Contact
 
 **Author:** Lenka Fronkova
 
