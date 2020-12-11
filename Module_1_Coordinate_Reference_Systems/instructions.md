@@ -61,7 +61,7 @@ In order to better understand how these elements affect a coordinate reference s
 ### 2.1. Geographic vs Projected Coordinate Systems    
 
 
-#### 2.1.1. Geograhic coordinate systems 
+#### 2.1.1. Geographic coordinate systems 
  
 **A geographic coordinate system (GCS)** enables us to define a location using degrees represented by a grid. The North-South direction is measured by latitude lines that run parallel to the equator. The east-west direction is measured by longitude lines. These run from pole to pole and are called meridians. A point on the Earth’s surface is referenced by its longitude and latitude, measured in degrees, referring to the angle from the centre of the Earth to that point. 
 
