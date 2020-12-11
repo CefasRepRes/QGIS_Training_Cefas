@@ -109,7 +109,7 @@ https://www.youtube.com/watch?v=6__nPo96d2o
 
 ---
 
-## 4. Auhtor and Contact
+## 4. Author and Contact
 
 **Author:** Rose Nicholson and Lenka Fronkova
 
