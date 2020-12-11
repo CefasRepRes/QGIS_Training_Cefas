@@ -144,7 +144,7 @@ The data folder contains the following:
 
 #### 1. Start a new project
 
-Open QGIS and start a new project by going to Project > New. Save this project in your desired workspace by clicking **Project > Save As**, this will save your work as a QGIS project file. When saving work to this project file, all layers in your workspace will be saved. This allows you to return to projects at a later date with all previous edits and the up to date version of your layers.   
+Open QGIS and start a new project by going to **Project > New**. Save this project in your desired workspace by clicking **Project > Save As**, this will save your work as a QGIS project file. When saving work to this project file, all layers in your workspace will be saved. This allows you to return to projects at a later date with all previous edits and the up to date version of your layers.   
 
 #### 2.	Coordinate reference system settings
 
