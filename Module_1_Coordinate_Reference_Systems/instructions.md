@@ -10,7 +10,7 @@ In this module we introduce the concept of coordinate reference systems (CRS). W
 
 ## 2. Coordinate Reference System basics
 
-A coordinate system ensures that objects and data are accurately and consistently mapped. There are, however, a lot of different coordinate systems of various types. Choosing the right one is crucial to ensuring that maps, calculations and measurements are correct. Applying a coordinate system to the Earth is not a straightforward endeavour. Before we can apply a CRS, a number of steps need to be taken. Thankfully, mathematicians and geodecists have been doing this for years.  
+A coordinate system ensures that objects and data are accurately and consistently mapped. There are, however, a lot of different coordinate systems of various types. Choosing the right one is crucial to ensuring that maps, calculations and measurements are correct. Applying a coordinate system to the Earth is not a straightforward endeavour. Before we can apply a CRS, a number of steps need to be taken. Thankfully, mathematicians and geodesists have been doing this for years.  
 One of the difficulties with applying a CRS to the Earth is that the planet is not a uniform sphere, nor is the surface smooth. The Earth is wider at the equator than at the poles, and topography, bathymetry, and factors such as changing ocean height mean that the surface of the Earth is lumpy and irregular. 
 
 **Geoid**
