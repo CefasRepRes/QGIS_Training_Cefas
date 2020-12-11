@@ -75,7 +75,7 @@ The line of 0 latitude is the equator, latitude values are measured relative to 
 
 *Figure 6. Example of latitude and longitude coordinates of a geographic coordinate system.*
 
-#### 2.1.2. Projected cordinate systems
+#### 2.1.2. Projected coordinate systems
 
 A projected coordinate system (PCS) is a flattened version of a geographic coordinate system. Unlike a GCS, grid lines are parallel and consistent, and coordinates are given in linear units such as feet or meters. Locations are defined by x and y coordinates on a grid, with the origin at the centre of that grid given the coordinates 0, 0 (where x = 0 and y = 0). All locations are referred to in relation to the origin (0, 0) with x and y values being either positive or negative depending on their location relative to the origin. X coordinates to the right of the origin will be positive, x coordinates to the left will be negative. Y coordinates above the origin will be positive and y coordinates below will be negative.
 
