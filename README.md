@@ -13,17 +13,17 @@ The repository consists of the following modules:
 
 * **Module 0 Introduction to GIS using QGIS**
 
-* **Module 1 Coordinate Reference Systems**
+* **Module 1 Map Creation and Visualisation**
 
-* **Module 2 Map Creation and Visualisation**
+* **Module 2 Data Symbology and Querying**
 
-* **Module 3 Data Symbology and Querying**
+* **Module 3 Digitisation**
 
-* **Module 4 Digitisation**
+* **Module 4 Coordinate Reference Systems**
 
 * **Module 5 Raster in QGIS**
 
 
-Each module includes instructions in both PDF and markdown format. There is also a link to a video which supplements the written instructions. To access the video and data, please contact us at gissupport@cefas.co.uk, stating the module name that you would like to get access to. We recommend accessing both the written instruction and the video in order to benefit from the learning experience these offer to their maximum.
+Each module includes instructions in both PDF and markdown format. There is also a link to a video which supplements the written instructions. To access the video and data, please contact us at gissupport@cefas.co.uk, stating the module name that you would like to get access to. We recommend accessing both the written instruction and the video in order to benefit from the learning experience these offer to their maximum. 
 
-Prior to you start any of the modules, please install the QGIS Desktop application from this [link](https://qgis.org/en/site/index.html). You will need to download and install the latest vestion of "QGIS Standalone Installer" based on the requirements of your operation system (either 32 or 64 bit version). If you are a Cefas staff, you can installl QGIS from the Software Centre.  
+Prior to you start any of the modules, please install the QGIS Desktop application from this [link](https://qgis.org/en/site/index.html). You will need to download and install the latest version of "QGIS Standalone Installer" based on the requirements of your operation system (either 32 or 64 bit version). If you are a Cefas staff, you can installl QGIS from the Software Centre.  More information on how to install QGIS can be found in Module 0.
