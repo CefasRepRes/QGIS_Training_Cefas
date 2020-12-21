@@ -11,9 +11,10 @@ Adding new layers to QGIS project
 
 To access data for this module, please contact us at gissupport@cefas.co.uk and we will share the data with you and a link to a supplementary tutorial video.
 
-**add the table**
-
-The data folder contains the following:
+|Natue of Data| Name | Source | Citation | Licence | Source Link | Data Processing |Date accessed 
+| --- |  --- | --- | --- | --- | --- | --- | --- |
+|Non-georeferenced screenshot|Survey.tif|Cefas|Please note that the data/ dataset is fictional and has been created solely for the purposes of training and must only be used for this training module. Resemblance or links to any person or natural entity directly or indirectly is purely coincidental.|Training Module Purposes only|http://mdrviewer/#/View/20993|Information in the source link|N/A|
+|World coastline|coastline.shp|NOAA|COPYINGv3 and COPYING.LESSERv3|GNU Lesser General Public License (LGPL)**|https://shoreline.noaa.gov/data/datasheets/wvs.html|No, Only level 1 f used (full resolution)|2020|
 
 ---
 
