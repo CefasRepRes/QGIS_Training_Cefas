@@ -1,4 +1,4 @@
-# QGIS Training Module 2 – Map creation and visualisation 
+# QGIS Training Module 1 – Map creation and visualisation 
 
 ---
 
@@ -14,13 +14,13 @@ To access data for this module, please contact us at gissupport@cefas.co.uk and 
 
 The data folder contains the following:
 
-**Data add table with below** 
-* 	CarhelmarWesternEngChannelSOL_andPLE_FSO_stn_posns.csv
- 
-1. “AreaStratum”- area where the survey was conducted
-1. “Prime Station”- station ID
-1. “Latitude”- Y coordinate in WGS 84 (EPSG 4326)
-1. “Longitude”- X coordinate in WGS 84 (EPSG 4326)
+|Natue of Data| Name | Source | Citation | Licence | Source Link | Data Processing |Date accessed 
+| --- |  --- | --- | --- | --- | --- | --- | --- |
+|Western Channel sole and plaice 2017/18 survey|CarhelmarWesternEngChannelSOL_andPLE_FSO_stn_posns.csv|Cefas| N/A|OGL*|http://data.cefas.co.uk/#/View/19204|No|2019|
+|ICES Statistical Rectangles|GeodataShapefiles_ICES_Rectangles_UK.shp.|ICES|ICES Spatial Facility, ICES, Copenhagen.|Online Open Access: https://ices.dk/data/Documents/ICES-Data-policy.pdf|https://gis.ices.dk/sf/index.html|No|2019|
+
+*OGL- Open Government Licence: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+
 
 You will need the internet access for this module, since we will install a QGIS plugin that will be donwloaded from the online repository.
 
