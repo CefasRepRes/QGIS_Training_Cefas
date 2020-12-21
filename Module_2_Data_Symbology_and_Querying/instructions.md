@@ -1,4 +1,4 @@
-# QGIS Training Module 3 – Data Visualisation and Query 
+# QGIS Training Module 2 – Data Visualisation and Query 
 
 ---
 
@@ -16,28 +16,17 @@ To access data for this module, please contact us at gissupport@cefas.co.uk and 
 
 The data folder contains the following:
 
-**add data table**
+|Natue of Data| Name | Source | Citation | Licence | Source Link | Data Processing |Date accessed 
+| --- |  --- | --- | --- | --- | --- | --- | --- |
+|Fishing effort|training_data_vms.csv|Cefas|N/A|This data can be used only as a part of this training module. The dataset is fictional and is solely intended for the purposes of training. Any resemblance with the real data is purely coincidental.|http://mdrviewer/#/View/20973|Information in the source link|N/A|
+|Scottish Marine Protected Areas|mpa_scotland.shp| JNCC|Contains Joint Nature Conservation Committee data © copyright and database right [2019]. Contains Scottish Natural Heritage Data © copyright and database right [2019]. Contains UK Hydrographic Office data © copyright and database right [2019].|OGL*|https://jncc.gov.uk/our-work/marine-protected-area-mapper/ https://hub.jncc.gov.uk/assets/6a218344-4eb4-46a3-ae0f-e5d266f1dbae|No|2019|
+|Towns in Scotland|towns_scotland.shp|Cefas|Please note that the data/ dataset is fictional and has been created solely for the purposes of training and must only be used for this training module. Resemblance or links to any person or natural entity directly or indirectly is purely coincidental.|Training Module Purposes only|http://mdrviewer/#/View/20973|Information in the source link|N/A|
+|UK Coastline|coastline.shp|NOAA|COPYINGv3 and COPYING.LESSERv3|GNU Lesser General Public License (LGPL) **|https://shoreline.noaa.gov/data/datasheets/wvs.html|UK and Ireland extracted|2019|
+|QGIS project for module 2|Module2_Data_Visualisation_and_Query.qgs|Cefas|Please note that the data/ dataset is fictional and has been created solely for the purposes of training and must only be used for this training module. Resemblance or links to any person or natural entity directly or indirectly is purely coincidental.|Training Module Purposes only|http://mdrviewer/#/View/20973|Information in the source link|N/A|
 
-1. training_data_vms.csv with fields:
-*  speed- fishing speed
-*  gear – fishing gear
-*  d_harbour – departure harbour
-*  r_harbour – return harbour
-*  d_date – departure date
-*  r_date – return date
-*  catch- kg of fish caught
-*  lon-easting
-*  lat- northing
+*OGL- Open Government Licence: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
 
-**source:** fictional- created for the purposes of this module
-
-
-
-**source:** https://www.eea.europa.eu/data-and-maps/data/eea-coastline-for-analysis-2
-
-1. Scottish Marine Protected Areas (MPAs) - mpa_scotland.shp
-
-**source**: OSPAR (https://www.ospar.org/work-areas/bdc/marine-protected-areas)
+** GNU OGL- https://www.gnu.org/licenses/lgpl-3.0.en.html
 
 ---
 
