@@ -1,4 +1,4 @@
-# QGIS Training Module 1 - Coordinate Reference Systems
+# QGIS Training Module 4 - Coordinate Reference Systems
 
 ---
 
