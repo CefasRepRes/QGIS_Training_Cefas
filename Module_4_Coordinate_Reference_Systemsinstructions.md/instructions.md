@@ -135,11 +135,15 @@ To access data for this module, please contact us at gissupport@cefas.co.uk and 
   
 The data folder contains the following:
 
-**add the table here decsribing the data>>**
+|Natue of Data| Name | Source | Citation | Licence | Source Link | Data Processing |Date accessed 
+| --- |  --- | --- | --- | --- | --- | --- | --- |
+|Bathymetry|Bathymetry.tif|GEBCO|||https://www.gebco.net/data_and_products/gridded_bathymetry_data/||2020|
+|Ports in the UK| UK_Ports.shp| Cefas | Please note that the data/ dataset is fictional and has been created solely for the purposes of training and must only be used for this training module. Resemblance or links to any person or natural entity directly or indirectly is purely coincidental.|Training Module Purposes only|http://mdrviewer/#/View/20980|Information in the source link| N/A|
+|World Boundaries| world_boundaries.shp | NOAA | COPYINGv3 and COPYING.LESSERv3| GNU Lesser General Public License (LGPL)*| https://shoreline.noaa.gov/data/datasheets/wvs.html| No, Only level 1 f used (full resolution)|2020|
 
-* Bathymetry.tif
-*	world_boundaries.shp
-*	UK_Ports.shp
+*GNU OGL- https://www.gnu.org/licenses/lgpl-3.0.en.html
+
+
 
 
 #### 1. Start a new project
