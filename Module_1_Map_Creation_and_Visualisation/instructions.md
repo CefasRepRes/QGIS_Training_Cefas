@@ -28,7 +28,7 @@ You will need the internet access for this module, since we will install a QGIS 
 ### 2.1. Open QGIS Project
 Open QGIS Desktop and navigate to Settings --> Options --> CRS and click on Prompt for CRS. As opposed to the earlier versions of QGIS, in QGIS 3 the ‘on the fly’ (OTF) option is enabled at all times.
 ### 2.2. Create survey points
-Open Data Source Manager (CTRL+L) or click on ![image](https://user-images.githubusercontent.com/47147296/79881216-d8224f80-83e8-11ea-9340-9323ede451fc.png) and select Delimited Text. In File Name navigate to ‘data ‘folder and click on CarhelmarWesternEngChannelSOL_andPLE_FSP_stn_posns.csv as file. Choose Layer Name and in Geometry Definition X field as Longitude and Y field as Latitude. Geometry CRS is selected to WGS84 (EPSG: 4326) and click Add, Close (screenshot below).  This layer is only virtual. In order to save it go Right click on it in the table of contents (‘Layers’ Window) and Export             -->Save Features As. In Format, ensue that ESRI Shapefile is selected. In File Name browse to the ‘data’ folder location and chose name ‘surveyPoints.shp’ This will be saved as a shapefile and loaded to your map document. You can remove the original layer (Right click- Remove Layer).
+Open Data Source Manager (CTRL+L) or click on ![image](https://user-images.githubusercontent.com/47147296/79881216-d8224f80-83e8-11ea-9340-9323ede451fc.png) and select Delimited Text. In File Name navigate to ‘data ‘folder and click on CarhelmarWesternEngChannelSOL_andPLE_FSP_stn_posns.csv as file. Choose Layer Name and in Geometry Definition X field as Longitude and Y field as Latitude. Geometry CRS is selected to WGS84 (EPSG: 4326) and click Add, Close (screenshot below).  This layer is only virtual. In order to save it, right click on it in the table of contents (‘Layers’ Window) and Export             -->Save Features As. In Format, ensue that ESRI Shapefile is selected. In File Name browse to the ‘data’ folder location and chose name ‘surveyPoints.shp’ This will be saved as a shapefile and loaded to your map document. You can remove the original layer (Right click- Remove Layer).
 
 ![image](https://user-images.githubusercontent.com/47147296/79881491-2899ad00-83e9-11ea-9ca7-f3c3982e23f4.png)
 
@@ -59,7 +59,7 @@ To change the on-the-fly projection, go to the EPSG:4326 button in the right-han
 For more information on the CRS, please visit our dedicated module [here](https://github.com/CefasRepRes/QGIS_Training_Cefas/blob/main/Module_1_Coordinate_Reference_Systems/instructions.md)
 
 ### 2.8.	Creating a map
-In QGIS, the map outputs are created in a map composer. To open one navigate to Project --> New Print Layout and a window where you name the new composer is opens.In the video instructions, there is a more detailed description of the map composer, showing different functionalities. Click on ![image](https://user-images.githubusercontent.com/47147296/79882544-b2964580-83ea-11ea-9c82-2b8f4ed6b419.png) to add a new map to the layout and draw a square- size of your map. Add another one (smaller) which will represent your inset map. 
+In QGIS, the map outputs are created in a map composer. To open one navigate to Project --> New Print Layout and a window where you name the new composer opens. In the video instructions, there is a more detailed description of the map composer, showing different functionalities. Click on ![image](https://user-images.githubusercontent.com/47147296/79882544-b2964580-83ea-11ea-9c82-2b8f4ed6b419.png) to add a new map to the layout and draw a square- size of your map. Add another one (smaller) which will represent your inset map. 
 
 ![image](https://user-images.githubusercontent.com/47147296/79882629-d0fc4100-83ea-11ea-8ad3-509b3ed4908d.png)
 
@@ -76,7 +76,7 @@ Click on Line Style --> Configure Symbol -->Simple Line and in Stroke style sele
 ![image](https://user-images.githubusercontent.com/47147296/79883033-55e75a80-83eb-11ea-8505-9fb945f39ef8.png)
 
 ### 2.10.	Extent overview
-To add an extent overview to the inset map firstly highlight Map2 in the Items window. In the Item Properties find Overviews and add a new overview with the + sign and select Map frame to ‘Map 1’. You can change the symbology of the extent square by clicking Frame style --> Configure symbol --> Simple Fill. In Fill colour select ‘Transparent fill’ and in the Stroke style ‘Solid Line’.
+To add an extent overview to the inset map firstly highlight Map 2 in the Items window. In the Item Properties find Overviews and add a new overview with the + sign and select Map frame to ‘Map 1’. You can change the symbology of the extent square by clicking Frame style --> Configure symbol --> Simple Fill. In Fill colour select ‘Transparent fill’ and in the Stroke style ‘Solid Line’.
 
 ![image](https://user-images.githubusercontent.com/47147296/79883235-921abb00-83eb-11ea-83c6-5269b9d64717.png)
 
