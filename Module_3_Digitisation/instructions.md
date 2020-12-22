@@ -2,7 +2,7 @@
 
 ---
 ## 1. Introduction
-This QGIS module focuses on data digitisation and creation of new shapefiles. The instructions are written for Q-GIS 3.2 version and above. At the end of this module you will be able to do the following: 
+This QGIS module focuses on data digitisation and creation of new shapefiles. The instructions are written for QGIS 3.2 version and above. At the end of this module you will be able to do the following: 
 
 Adding new layers to QGIS project
 * Create bookmarks
@@ -23,7 +23,7 @@ To access data for this module, please contact us at gissupport@cefas.co.uk and 
 Navigate to the Windows Taskbar and type in 'QGIS'-  double click to open 'QGIS Desktop' 
 
 ### 2.2. Add coastline shapefile
-**Data Source Manager (CTRL+L)** and click on **Vector** ![image](https://user-images.githubusercontent.com/47147296/80387215-4a3edc80-88a0-11ea-9f51-28ed9c221e76.png) that will allow you to add a shapefile (vector layer). In the **file name** navigate to the place where you saved the data (hereafter the data folder) and add coastline.shp, click **"Add and Close"**.
+**Data Source Manager (CTRL+L)** and click on **Vector** ![image](https://user-images.githubusercontent.com/47147296/80387215-4a3edc80-88a0-11ea-9f51-28ed9c221e76.png) this will allow you to add a shapefile (vector layer). In the **file name** navigate to the place where you saved the data (hereafter the data folder) and add coastline.shp, click **"Add and Close"**.
 
 ### 2.3. Create Bookmark for Cornwall
 Zoom to the area of Cornwall (below): Then go to **View** --> **New Bookmark** and type a name of the bookmark in the Spatial Bookmarks Panel. If you change the zoom, you can apply the bookmark zoom by: left-click on the bookmark (highlights) and click on ![image](https://user-images.githubusercontent.com/47147296/80385196-af450300-889d-11ea-92fc-768486286a6a.png)
@@ -32,7 +32,7 @@ Zoom to the area of Cornwall (below): Then go to **View** --> **New Bookmark** a
 
 ### 2.4. Activate Georeferencer GDAL Plugin
 **Plugins** --> **Manage and Install Plugins** and type in Georeferencer GDAL. Check the box 
-next to the plugin and **Close**. This plugin will appear under Raster tab at the top of the Q-GIS 
+next to the plugin and **Close**. This plugin will appear under Raster tab at the top of the QGIS 
 project.
 
 ![image](https://user-images.githubusercontent.com/47147296/80385433-f59a6200-889d-11ea-9f81-19ef5400ca80.png)
@@ -42,7 +42,7 @@ project.
 ![image](https://user-images.githubusercontent.com/47147296/80385619-309c9580-889e-11ea-9f04-595213eea16d.png)
 
 ### 2.6. Goreferencing
-Click ![image](https://user-images.githubusercontent.com/47147296/80385740-59bd2600-889e-11ea-8521-e67daaaa608b.png) to add ground control points. Navigate to locations in the screenshot below (red points), click on the location of red points in a map and the panel (Enter Map Coordinates) where you can insert coorindates appears. In the **Enter Map Coordinates panel**, select  **From map canvas** which will navigate you back to the Europe shapefile. Use the bookmark created to zoom to Cornwall and pick the same spot as in the georeferencer. In theory, you need at least 3 evenly distributed control points for georeferencing. In this case, we added 4 points in order for the Survey.png align the coastline better. The GCP table becomes populated with the X and Y coordinates from the shapefile (see below). The accuracy of the georeferenced image is the highest around the GCPs. If the GCPs are clusstered in one part of the image, the position, distances and angles of the areas without the GCPs will be inaccurate.
+Click ![image](https://user-images.githubusercontent.com/47147296/80385740-59bd2600-889e-11ea-8521-e67daaaa608b.png) to add ground control points. Navigate to locations in the screenshot below (red points), click on the location of red points in a map and the panel (Enter Map Coordinates) where you can insert coorindates appears. In the **Enter Map Coordinates panel**, select  **From map canvas** which will navigate you back to the Europe shapefile. Use the bookmark created to zoom to Cornwall and pick the same spot as in the georeferencer. In theory, you need at least 3 evenly distributed control points for georeferencing. In this case, we added 4 points in order for the Survey.png to better align with the coastline. The GCP table becomes populated with the X and Y coordinates from the shapefile (see below). The accuracy of the georeferenced image is the highest around the GCPs. If the GCPs are clusstered in one part of the image, the position, distances and angles of the areas without the GCPs will be inaccurate.
 
 ![image](https://user-images.githubusercontent.com/47147296/101461918-73921180-3933-11eb-9fe0-207a533691e2.png)
 
