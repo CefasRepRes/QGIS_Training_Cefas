@@ -4,7 +4,7 @@
 
 ## 1. Introduction
 
-This QGIS module focuses on data visualisation and querying. The instructions are written for Q-GIS 3.2 version and above.  In this module, you will learn the following:
+This QGIS module focuses on data visualisation and querying. The instructions are written for QGIS 3.2 version and above.  In this module, you will learn the following:
 * 	Create points
 * 	Labelling
 * 	Data query
@@ -33,10 +33,10 @@ The data folder contains the following:
 ## 2. Data Visusalisation and Query
 
 ### 2.1. Open QGIS Project
-Navigate to the folder where you saved your data and double click on Module2_Data_Visualisation_and_Querying.qgs. The QGISs project contains UK/Irish coastline, MPAs and major Scottish towns shapefiles.
+Navigate to the folder where you saved your data and double click on Module2_Data_Visualisation_and_Querying.qgs. The QGIS project contains UK/Irish coastline, MPAs and major Scottish towns shapefiles.
 
 ### 2.2. Create VMS points from a csv file
-Open **Data Source Manager (CTRL+L)** or click on ![image](https://user-images.githubusercontent.com/47147296/80372253-2624d080-888b-11ea-8133-d22c2c63a21b.png) and select 'Delimited Text'. In File Name navigate to the place where you saved the data (hereafter the data folder) and click on 'training_data_vms.csv' file. Choose **Layer Name** and in **Geometry Definition** 'X' field as lon and 'Y' field as lat. Geometry CRS is selected as 'OSGB 1936 /British National Grid' (EPSG: 27700). Click Add and Close.  This layer is only virtual. In order to save it go Right click on it in the table of contents (TBO)--> **Save As**. In File Name browse to the data folder location and chose name ‘vms.shp’ This will be exported as a shapefile and loaded to your map document after clicking **OK**. You can remove the original layer (Right click- remove).
+Open **Data Source Manager (CTRL+L)** or click on ![image](https://user-images.githubusercontent.com/47147296/80372253-2624d080-888b-11ea-8133-d22c2c63a21b.png) and select 'Delimited Text'. In File Name navigate to the place where you saved the data (hereafter the data folder) and click on 'training_data_vms.csv' file. Choose **Layer Name** and in **Geometry Definition** 'X' field as lon and 'Y' field as lat. Geometry CRS is selected as 'OSGB 1936 /British National Grid' (EPSG: 27700). Click Add and Close.  This layer is only virtual. In order to save it, right click on it in the table of contents (TBO)--> **Save As**. In File Name browse to the data folder location and chose name ‘vms.shp’ This will be exported as a shapefile and loaded to your map document after clicking **OK**. You can remove the original layer (Right click- remove).
 
 ### 2.3. Create Labels
 Right click on **towns_scotland** --> **Properties** --> **Labels** --> **Show labels for this layer** and select the town name column:
@@ -89,7 +89,7 @@ Right click **mpa_scotland_vms** --> **Properties** --> **Symbology** --> **Grad
 
 This step visually differentiates MPAs from each other depending on the fishing effort that occurs in them. You can use hte **Identify tool** ![image](https://user-images.githubusercontent.com/47147296/80372991-4c973b80-888c-11ea-8098-21d3048198b1.png) to find out how much fishing effort is in a specific MPA. For the identify tool to work, you must highlight mpa_scotland_vms layer in the table of contents first (right click).
 
-Following the same steps than in the part 2.4, you can complte **Task 3:**
+Following the same steps from the part 2.4, you can complete **Task 3:**
 Select MPAs that have effort greater or equal to 100 and their STATUS is proposed. The result is in the answers.
 
 Congratulations, you just completed Cefas QGIS Training Module 3 🥇 🥇 🥇 
