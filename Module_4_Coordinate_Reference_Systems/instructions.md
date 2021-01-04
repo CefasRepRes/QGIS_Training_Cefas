@@ -43,11 +43,11 @@ The datum is the basis of a geographic coordinate system (GCS). The most common 
 
 **Projections**
 
-A projection is a mathematical transformation of the measurements of the round datum to a flat surface (Figure 4). **Projections define how a 3D object is transformed to a 2D surface.**  A GCS uses degrees as they measure angles, whereas a PCS uses linear measurements such as feet and metres as it is measuring the distance from a known point on a cartesian plane. 
+A projection is a mathematical transformation of the measurements of the round datum to a flat surface (Figure 4). **Projections define how a 3D object is transformed to a 2D surface.**  A GCS uses degrees as they measure angles, whereas a PCS uses linear measurements such as feet and metres as it is measuring the distance from a known point on a Cartesian plane. 
 
 ![Figure 4.   Example of a cartesian coordinate system.](https://user-images.githubusercontent.com/47147296/92700935-4ee3c900-f347-11ea-9949-2030fe9bd57d.png)
 
-*Figure 4.   Example of a cartesian coordinate system.*
+*Figure 4.   Example of a Cartesian coordinate system.*
 
 **How does this all fit together?**
 
@@ -77,7 +77,7 @@ The line of 0 latitude is the equator, latitude values are measured relative to 
 
 #### 2.1.2. Projected coordinate systems
 
-A projected coordinate system (PCS) is a flattened version of a geographic coordinate system. Unlike a GCS, grid lines are parallel and consistent, and coordinates are given in linear units such as feet or meters. Locations are defined by x and y coordinates on a grid, with the origin at the centre of that grid given the coordinates 0, 0 (where x = 0 and y = 0). All locations are referred to in relation to the origin (0, 0) with x and y values being either positive or negative depending on their location relative to the origin. X coordinates to the right of the origin will be positive, x coordinates to the left will be negative. Y coordinates above the origin will be positive and y coordinates below will be negative.
+A projected coordinate system (PCS) is a flattened version of a geographic coordinate system. Unlike a GCS, grid lines are parallel and consistent, and coordinates are given in linear units such as feet or metres. Locations are defined by x and y coordinates on a grid, with the origin at the centre of that grid given the coordinates 0, 0 (where x = 0 and y = 0). All locations are referred to in relation to the origin (0, 0) with x and y values being either positive or negative depending on their location relative to the origin. X coordinates to the right of the origin will be positive, x coordinates to the left will be negative. Y coordinates above the origin will be positive and y coordinates below will be negative.
 
 ![Figure 7. Cartesian coordinate system](https://user-images.githubusercontent.com/47147296/92701083-7aff4a00-f347-11ea-8cc2-cd7a30444289.png)
 
@@ -115,7 +115,7 @@ Projections can be grouped by the property that they best preserve:
 A transformation is a mathematical method that converts coordinates in one geographic coordinate system to another geographic coordinate system. A transformation is necessary when changing between coordinate systems based on different datums. An example of this is the transformation of British data from the WGS 84 to the OSGB 36, from the World Geodetic System 1984 datum to the Ordnance Survey of Great Britain 1936 datum.  
 
 **Projection**
-Projections take data in a geographic coordinate system (degrees) and changes it to a projected coordinate system (meters). Projections use a mathematical calculation to convert the coordinate system used on the 3D surface of a GCS to the 2D grid of a projected coordinate system. If projecting from a GCS to a PCS that is based on a different geographic datum, a transformation must first be performed. 
+Projections take data in a geographic coordinate system (degrees) and changes it to a projected coordinate system (metres). Projections use a mathematical calculation to convert the coordinate system used on the 3D surface of a GCS to the 2D grid of a projected coordinate system. If projecting from a GCS to a PCS that is based on a different geographic datum, a transformation must first be performed. 
 
 ![Figure 10. Earth represented using geographic and projected coordinate systems. ](https://user-images.githubusercontent.com/47147296/92701257-aa15bb80-f347-11ea-88b9-464df138df6f.png)
 
@@ -199,7 +199,7 @@ Back on the main screen, we can see the coordinates of a location by moving the 
 
 One way of visualising this data in a projected system of your choice is to change the project CRS. To do this, click the icon in the bottom right hand corner, or select **Project > Properties > CRS** and select a projected coordinate system from the list. One of the easiest ways to select a CRS is by searching by its EPSG code. In this example, we will project to the Lambert Azimuthal Equal-Area projection for Europe (EPSG: 3035). 
 
-When doing this, multiple transformations options are available. Select the first option, notice there is a column which indicates the accuracy of this transformation, in this case we are transforming this data to within an accuracy of 1 meter. Choosing the most accurate transformation is crucial when undertaking small scale spatial analyses and calculations, for broader scale work or when producing maps without performing analysis, a transformation with lower accuracy can be chosen. 
+When doing this, multiple transformations options are available. Select the first option, notice there is a column which indicates the accuracy of this transformation, in this case we are transforming this data to within an accuracy of 1 metre. Choosing the most accurate transformation is crucial when undertaking small scale spatial analyses and calculations, for broader scale work or when producing maps without performing analysis, a transformation with lower accuracy can be chosen. 
 
 ![](https://user-images.githubusercontent.com/47147296/92701447-e6e1b280-f347-11ea-86b8-c75fc2b55155.png)
 
@@ -281,7 +281,7 @@ Project this layer to the British National Grid coordinate system (EPSG:27700) u
 ![](https://user-images.githubusercontent.com/47147296/92701740-4344d200-f348-11ea-8e84-56981146de18.png)
 
  
-Once you have successfully reprojected your layer to BNG, in the layer information (**Properties > Information**) you will then see that this layer is using meters as the unit of measurements, as opposed to degrees used in a GCS. BNG also measures latitude as Northing and longitude as Easting, so we will need to add these coordinates to the attribute table. 
+Once you have successfully reprojected your layer to BNG, in the layer information (**Properties > Information**) you will then see that this layer is using metres as the unit of measurements, as opposed to degrees used in a GCS. BNG also measures latitude as Northing and longitude as Easting, so we will need to add these coordinates to the attribute table. 
 
 #### 3.	Open attribute table and enable editing
 
@@ -297,7 +297,7 @@ Within the field calculator, add a new column named “easting” in the ‘Outp
 ![](https://user-images.githubusercontent.com/47147296/92701797-5788cf00-f348-11ea-9a5f-3c0ce19a6de7.png)
 
  
-In the field calculator (***4**) type the expression ***x($geometry)** this expression will return the X coordinate value of each point in the layer CRS. As our layer is in the BNG coordinate system, this value will be the easting value in meters. Click OK. This will add a column table with the easting values. 
+In the field calculator (***4**) type the expression ***x($geometry)** this expression will return the X coordinate value of each point in the layer CRS. As our layer is in the BNG coordinate system, this value will be the easting value in metres. Click OK. This will add a column table with the easting values. 
 
 Repeat the process, name the column “northing” and change the expression to ***y($geometry)**. We will now have easting and northing coordinates for each point in our UK ports vector layer.
 
@@ -308,7 +308,7 @@ Repeat the process, name the column “northing” and change the expression to 
 
 ## 4. Conclusion
 
-The module is now complete!🥇
+The module is now complete!🥇🥇🥇🥇
 
 This module has introduced you to the theory of coordinate reference systems and given you some experience of working with coordinate reference systems in QGIS. You have been introduced to the methods used to assign coordinates and map spatial data. We have covered the difference between geographic and projected coordinate systems and discussed the inherent issues that come with projecting spatial data. 
 
