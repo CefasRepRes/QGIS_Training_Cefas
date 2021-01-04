@@ -5,7 +5,7 @@
 
 ## 1. Introduction
 
-In this tutorial, QGIS is used to display raster files and perform basic analysis. For more information on how to install QGIS, please visit the intriduction page of this GitHub repository. This tutotrial covers:
+In this tutorial, QGIS is used to display raster files and perform basic analysis. For more information on how to install QGIS, please visit the introduction page of this GitHub repository. This tutotrial covers:
 
 - Loading raster files
 
@@ -69,7 +69,7 @@ The bathymetry rasters are located along the Suffolk coast, including at the Cef
 
 **Save QGIS Document**
 
-From the main toolbar menu, choose Project > Save > browse to the the Module6_Raster folder and name the file ‘Raster’, choosing to Save as type QGIS files (*.qgs).
+From the main toolbar menu, choose Project > Save > browse to the the Module5_Raster folder and name the file ‘Raster’, choosing to Save as type QGIS files (*.qgs).
 
 ## 2.2. Display Multiple Rasters – Virtual Raster
 
@@ -91,10 +91,10 @@ Working with multiple raster files in one document is sub-optimal: to make this 
 
 6. Click Run to execute the tool and click Close when the process is complete. The virtual raster should be automatically added to the document. 
 
-The virtual raster shows a single layer with a continuous symbology.
+The virtual raster shows as a single layer with a continuous symbology.
 To ensure that the symbology displays the full range of values, the settings may need to be changed. To do this: 
 
---	Right click the vrt layer in the Browser pane and select Properties;
+--	Right click the vrt layer in the Layer pane and select Properties;
 --	Select Symbology from the left pane of the Layer Properties dialogue window
 --	Expand the Min/Max Value Settings box, check that the Min/Max radio button is checked, and use the drop-down to change Accuracy to ‘Actual (slower)’.
 --	Click Apply and OK to close the Layer Properties dialog
@@ -310,7 +310,7 @@ Save the QGIS document, but keep it open.
 
 ## 5. Raster to Vector
 
-Raster data can be converted to vector data – this may be necessary for certain types of analysis, or for display purposes.  The example shown here is the conversion of a raster bathymetry layer to contours.  If you’ve closed your Calculation.qgs document, reopen it now and turn off all layers.
+Raster data can be converted to vector data – this may be necessary for certain types of analysis, or for display purposes.  The example shown here is the conversion of a bathymetry raster layer to contours.  If you’ve closed your Calculation.qgs document, reopen it now and turn off all layers.
 1.	Add the merged bathymetry raster you created previously (Bathy_Coastal_Multibeam_2014_Merge.tif).
 2.	From the main toolbar menu, choose Raster > Extraction > Contour... to open the Contour dialogue window.
 3.	For the Input layer, use the dropdown arrow to select the merged raster. 
