@@ -97,7 +97,7 @@ Layout --> Export as image (other options-PDF (raster and vector formats)). Save
 ### 2.15.	Multiple map composers/layouts
 For the single QGIS project, you can have multiple map printing composers. To create new map composers, open and manage the existing ones go to the QGIS project: Project -- > Layout Manager. Here you can duplicate your existing layouts, rename, delete or create new ones from scratch. For more information on the map composer/layout functionality, please watch the video which you can find in the ‘Instructions’ folder of this module.
 
-Congratulations, you just finished Cefas QGIS Training Module 2 🥇🥇
+Congratulations, you just finished Cefas QGIS Training Module 1 🥇
 
 ---
 
