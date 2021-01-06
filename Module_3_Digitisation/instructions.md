@@ -82,7 +82,7 @@ When all the point features are digitised, press **Save Layer Edits** and **Togg
 
 ![image](https://user-images.githubusercontent.com/47147296/80387136-2b404a80-88a0-11ea-8606-9edf432d2381.png)
 
-Congratulations, you have just completed Cefas QGIS Training module 4 🥇 🥇 🥇 🥇
+Congratulations, you have just completed Cefas QGIS Training module 3 🥇 🥇 🥇 
 
 ---
 
