@@ -92,7 +92,7 @@ This step visually differentiates MPAs from each other depending on the fishing 
 Following the same steps from the part 2.4, you can complete **Task 3:**
 Select MPAs that have effort greater or equal to 100 and their STATUS is proposed. The result is in the answers.
 
-Congratulations, you just completed Cefas QGIS Training Module 3 🥇 🥇 🥇 
+Congratulations, you just completed Cefas QGIS Training Module 2 🥇 🥇 
 
 ---
 
