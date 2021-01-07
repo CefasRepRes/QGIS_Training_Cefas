@@ -137,14 +137,11 @@ The data folder contains the following:
 
 |Natue of Data| Name | Source | Citation | Licence | Source Link | Data Processing |Date accessed 
 | --- |  --- | --- | --- | --- | --- | --- | --- |
-|Bathymetry|Bathymetry.tif|GEBCO|||https://www.gebco.net/data_and_products/gridded_bathymetry_data/||2020|
-|Ports in the UK| UK_Ports.shp| Cefas | Please note that the data/ dataset is fictional and has been created solely for the purposes of training and must only be used for this training module. Resemblance or links to any person or natural entity directly or indirectly is purely coincidental.|Training Module Purposes only|http://mdrviewer/#/View/20980|Information in the source link| N/A|
-|World Boundaries| world_boundaries.shp | NOAA | COPYINGv3 and COPYING.LESSERv3| GNU Lesser General Public License (LGPL)*| https://shoreline.noaa.gov/data/datasheets/wvs.html| No, Only level 1 f used (full resolution)|2020|
+|Bathymetry|Bathymetry.tif|GEBCO|Imagery reproduced from the GEBCO_2019 Grid, GEBCO Compilation Group (2019) GEBCO 2019 Grid (doi:10.5285/836f016a-33be-6ddc-e053-6c86abc0788e)||https://www.gebco.net/data_and_products/gridded_bathymetry_data/|Public Domain|https://www.gebco.net/data_and_products/gridded_bathymetry_data/|No|2020|
+|Ports in the UK| UK_Ports.shp| World Port Index Shapefile| |Public Domain  |Subset for the UK |Subset for the UK| 2020|
+|World Boundaries| world_boundaries.shp | Natural Earth | Made with Natural Earth. Free vector and raster map data @ naturalearthdata.com. | Public Domain | https://www.naturalearthdata.com/downloads/50m-cultural-vectors/50m-admin-0-countries-2/ | No|2020|
 
-*GNU OGL- https://www.gnu.org/licenses/lgpl-3.0.en.html
-
-
-
+---
 
 #### 1. Start a new project
 
