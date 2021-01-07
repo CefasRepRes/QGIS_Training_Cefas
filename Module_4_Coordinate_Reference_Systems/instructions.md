@@ -138,7 +138,7 @@ The data folder contains the following:
 |Natue of Data| Name | Source | Citation | Licence | Source Link | Data Processing |Date accessed 
 | --- |  --- | --- | --- | --- | --- | --- | --- |
 |Bathymetry|Bathymetry.tif|GEBCO|Imagery reproduced from the GEBCO_2019 Grid, GEBCO Compilation Group (2019) GEBCO 2019 Grid (doi:10.5285/836f016a-33be-6ddc-e053-6c86abc0788e)||https://www.gebco.net/data_and_products/gridded_bathymetry_data/|Public Domain|https://www.gebco.net/data_and_products/gridded_bathymetry_data/|No|2020|
-|Ports in the UK| UK_Ports.shp| Nautical Geospatial Intelligence Agency |World Port Index Shapefile| |Public Domain  |Subset for the UK |Subset for the UK| 2020|
+|Ports in the UK| UK_Ports.shp| Nautical Geospatial Intelligence Agency |World Port Index Shapefile| Public Domain | https://msi.nga.mil/Publications/WPI| Subset for the UK |2020|
 |World Boundaries| world_boundaries.shp | Natural Earth | Made with Natural Earth. Free vector and raster map data @ naturalearthdata.com. | Public Domain | https://www.naturalearthdata.com/downloads/50m-cultural-vectors/50m-admin-0-countries-2/ | No|2020|
 
 ---
