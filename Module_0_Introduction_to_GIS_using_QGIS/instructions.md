@@ -131,15 +131,11 @@ Consequently, in the table the city’s coordinates were acquired from Wikipedia
 
 ### Geometry information as text:
 
-Well-known text (WKT) is a way of representing vector geometry as text. There are three elements of WKT that can describe an objects geometry: <span style="color: green;">the type of geometry</span> (point, line, or polygon), <span style="color: red;">the coordinates of the vertices</span>, and <span style="color: blue;">the spatial reference</span>. For example.
-
-a.	('<span style="color: green;">POINT</span> (<span style="color: red;">0 0</span>)')
-b.	('<span style="color: green;">LINESTRING</span> (<span style="color: red;">0 0.5, 0.25 0, 0.5 0.5</span>)')
-c.	('<span style="color: green;">POLYGON</span> ((<span style="color: red;">0 0, 0 0.5, 0.5 0.5, 0.5 0, 0 0</span>))',<span style="color: blue;">4326</span>)
+![](https://user-images.githubusercontent.com/47147296/104032749-8152e500-51c6-11eb-8cf6-65e89174e9fd.png)
 
 The above examples correspond to the following geometries: 
  
-![](https://user-images.githubusercontent.com/47147296/104026229-8a8b8400-51bd-11eb-889f-bff0c1bc3464.png)
+![](https://user-images.githubusercontent.com/47147296/104034919-6897fe80-51c9-11eb-9f2a-618dc17b23b8.png)
  
 Figure 9. Representation of WKT as vector geometries                                                                                        
 
@@ -241,19 +237,24 @@ The most recent version of QGIS can be downloaded from the software centre.
 **For all other users: **
 QGIS can be downloaded from https://www.qgis.org/en/site/forusers/download.html and selecting the most recent, or long-term release for your operating system. 
 
-If you don’t know whether you need the 32- or 64- bits version of QGIS, you can check on your computer by going to Start > Settings > System > About and checking the System type. You will want to download the version that matches your system’s operating system. 
+![](https://user-images.githubusercontent.com/47147296/104032783-90d22e00-51c6-11eb-9031-57f18a962c16.png)
+
+If you don’t know whether you need the 32- or 64- bits version of QGIS, you can check on your computer by going to **Start > Settings > System > About** and checking the System type. You will want to download the version that matches your system’s operating system. 
 
 ## 1.	Setting up a Project
 
 1.1.	Create a folder in which to save your data and QGIS project. 
 It may be useful within that folder to have separate folders for different data types. This will make finding your data easier in the future and will help maintain a consistent folder structure. 
  
+ ![](https://user-images.githubusercontent.com/47147296/104032804-9a5b9600-51c6-11eb-8623-93593b25ea2c.png)
 
 1.2.	Open QGIS
 Open the QGIS desktop application by searching or opening in the start menu of your computer. 
 
 1.3.	Create a new project and save
 When you open QGIS, you will be starting a new project. To save this project navigate to **Project > Save As**. Save this project in your newly created folder as a **.qgz** file, when you have data in your project you can save the project to save the layers with their current settings. **Use informative project names so you can identify the project for them name**. 
+
+![](https://user-images.githubusercontent.com/47147296/104032845-a5aec180-51c6-11eb-8667-f8b7ab79c66c.png)
 
 1.4.	Set Project properties
 
@@ -265,26 +266,33 @@ When you open QGIS, you will be starting a new project. To save this project nav
 
 Here you can also play around with other settings, including the how the coordinates are displayed in the project, and the highlight colour for selected items. 
 
+![](https://user-images.githubusercontent.com/47147296/104032877-afd0c000-51c6-11eb-9e73-bf63a5e74ae0.png)
+
 1.5.	Set Coordinate Reference System
 
 For any project you will need to set a Coordinate Reference system (CRS), this will determine the projection or coordinates used for layers in your project. 
 
+![](https://user-images.githubusercontent.com/47147296/104032963-cd9e2500-51c6-11eb-8c25-196f2cc31677.png)
 
-•	Go to **Project > Properties > CRS**
+*	Go to **Project > Properties > CRS**
 
-•	Search for your desired CRS in the filter bar. Search by using the name of your CRS or the EPSG number if known e.g., OSGB 1936 / British National Grid – EPSG:27700
+*	Search for your desired CRS in the filter bar. Search by using the name of your CRS or the EPSG number if known e.g., OSGB 1936 / British National Grid – EPSG:27700
 
-•	The map in the bottom right of the page will show you what area the CRS is designed to be used with. The window to the left of the map will give more information on the selected CRS. Click ‘OK’ to save the CR settings. 
+*	The map in the bottom right of the page will show you what area the CRS is designed to be used with. The window to the left of the map will give more information on the selected CRS. Click ‘OK’ to save the CR settings. 
 
 
 
 1.6.	Save project 
-Click **Project > Save** to save this project with these settings, click the   button, or simply use **Ctrl + S** on your keyboard. 
+
+Click **Project > Save** to save this project with these settings, click the ![](https://user-images.githubusercontent.com/47147296/104033000-dbec4100-51c6-11eb-8f59-0e37e25e7b54.png)  button, or simply use **Ctrl + S** on your keyboard. 
 
 ## 2.	Loading data into QGIS
 
 2.1.	Load Vector Data
-Click the ‘Open Data Source Manager’ button or press ‘Ctrl + L’ to open the window and load data. 
+
+Click the ‘Open Data Source Manager’ button ![](https://user-images.githubusercontent.com/47147296/104033026-e4dd1280-51c6-11eb-9053-9275cbeef13c.png) or press ‘Ctrl + L’ to open the window and load data. 
+
+![](https://user-images.githubusercontent.com/47147296/104033049-ed354d80-51c6-11eb-9a90-47dd529a15df.png)
 
 To load vector data into your QGIS project, navigate to the ‘Vector’ panel on the left of the window. Use the button to search your files for vector data to add. Once data has been selected, click ‘Add’ to load the data into your project. Vector data can also be ‘dragged and drop’ directly into your QGIS window from the folder where your data is stored. Try this with the ‘World_boundaries.shp’ file in the data folder. 
 
@@ -297,41 +305,62 @@ To load CSV data, follow the instructions for loading vector data, but select th
 •	To load CSV data with geometry, you must identify the latitude and longitude columns within the dataset (**1**). To populate the ‘X field’, select the longitude column within your dataset and use the latitude column to populate the ‘Y field’. 
 •	We can also select the Coordinate Reference System that we want to display our newly created points in (**2**).
 
+![](https://user-images.githubusercontent.com/47147296/104033082-f9210f80-51c6-11eb-9003-b7753e112d98.png)
 
 •	To add the new geometry data to your project, click ‘Add’.
 •	To load CSV data with no geometry as an attribute table, check the button ‘No geometry’.
 •	Click ‘Add’ to load the table into your QGIS project.
 
+![](https://user-images.githubusercontent.com/47147296/104033110-00e0b400-51c7-11eb-9bd6-df3ed3288c8b.png)
+
 2.4.	Loaded Data
 Loaded data will appear as a new Layer in your QGIS Project. Layers are added to the ‘Layer’ panel (1) and can be visualized in the main panel (2) of QGIS. Available toolboxes can be selected in the ‘Processing Toolbox’ (3). 
+
 Additional toolboxes can be added to the QGIS window in **View > Panels** and checking desired panels. 
 
+![](https://user-images.githubusercontent.com/47147296/104033134-09d18580-51c7-11eb-9f0b-0636efdd2394.png)
  
 ## 3.	Visualizing Data
 
-Interacting with your data
+**Interacting with your data**
 
 Within QGIS we can interact with our spatial data in many ways, the simplest of these are panning, zooming, and selecting features. 
 
-Panning 
+![](https://user-images.githubusercontent.com/47147296/104033185-1b1a9200-51c7-11eb-979b-bac8229ed344.png)
+
+**Panning** ![](https://user-images.githubusercontent.com/47147296/104033193-2077dc80-51c7-11eb-9e46-a9b6e2dcb20a.png)
+
 Panning allows the user to move around the map and data by clicking ad dragging on the map image. By doing this we can explore our data and move to different areas of our maps. 
 
-Zooming   
+**Zooming ** ![](https://user-images.githubusercontent.com/47147296/104033220-28378100-51c7-11eb-9dc1-aa100d38005f.png)
+
 We can zoom in or out of our images using the zoom buttons. If we select a zoom button, we can draw a polygon around our area of interest and zoom in or out of that area. Alternatively, you can zoom using the scroll function of the mouse. 
 
-Selecting   
+![](https://user-images.githubusercontent.com/47147296/104033244-31285280-51c7-11eb-9597-5477c8e33496.png)
+
+**Selecting**   ![](https://user-images.githubusercontent.com/47147296/104033261-36859d00-51c7-11eb-8711-186bdefc5333.png)
+
 Selecting features in QGIS can provide information on their associated attributes or can allow us to perform analysis or processes on selected features only. 
 
+![](https://user-images.githubusercontent.com/47147296/104033287-400f0500-51c7-11eb-9974-024613da6092.png)
 
-   This dropdown option allows us to select features by clicking on them. Alternatively, we can use the mouse to draw a rectangle or polygon around an area of interest, this will select all features that intersect our selection area. 
-  This dropdown options allows us to select all features in our layer. We can also select features from by value or expression, where all features that match the desired values will be selected. 
-  This button will deselect all selected features. 
+ ![](https://user-images.githubusercontent.com/47147296/104033485-7c426580-51c7-11eb-9dfc-d297ee7d5eb3.png)  This dropdown option allows us to select features by clicking on them. Alternatively, we can use the mouse to draw a rectangle or polygon around an area of interest, this will select all features that intersect our selection area. 
+ 
+![](https://user-images.githubusercontent.com/47147296/104033504-81071980-51c7-11eb-8acf-836cc3724be3.png)  This dropdown options allows us to select all features in our layer. We can also select features from by value or expression, where all features that match the desired values will be selected. 
+  
+![](https://user-images.githubusercontent.com/47147296/104033520-86fcfa80-51c7-11eb-812c-db9736f80ba2.png)  This button will deselect all selected features. 
 
 ## 4.	Using Attribute Tables
 
 The attributes of an individual feature can be visualized by clicking on the feature using the **Identify Features cursor** (**1**) and viewing attributes in the **Identify Results panel** (**2**). Alternatively, all features can be viewed in the attribute table by right-clicking on the feature layer in the Layers panel and selecting **Open Attribute Table** (**3**), clicking the **open attribute table tab** (**4**) or pressing F6. 
 
+![](https://user-images.githubusercontent.com/47147296/104033544-92502600-51c7-11eb-8478-ab0bd9a4d0ad.png)
+
+![](https://user-images.githubusercontent.com/47147296/104033569-9d0abb00-51c7-11eb-9326-e061f9341e07.png)
+
 Within the attribute table, editing can be done by clicking on the pencil in the top left corner (**1**). This allows the user to delete features and edit attribute data. Data can be selected using queries within the attribute table pane (**2**). Columns can be added and removed (**3**), and fields can be generated manually or based on equations or geometry (**4**). 
+
+![](https://user-images.githubusercontent.com/47147296/104033596-a72cb980-51c7-11eb-9bcd-fe2e7072fa28.png)
 
 ## 5.	Saving and Exporting Data
 
@@ -343,16 +372,16 @@ Saving your project will save all the layers in your QGIS project in their curre
 
 To export a vector or raster layer; right click on your layer and select Export > Save Feature As. Here you can select the format, name, location, extent, and CRS of the layer being exported. 
 
+![](https://user-images.githubusercontent.com/47147296/104033640-b449a880-51c7-11eb-82d8-b961f2a182a9.png)
 
 
 
 
 
 
+##Links
 
-Links
-
-Figures in text:
+**Figures in text:
 
 Figure 1: https://saylordotorg.github.io/text_essentials-of-geographic-information-systems/s05-01-spatial-thinking.html
 Figure 4: https://en.wikipedia.org/wiki/Cartesian_coordinate_system
@@ -363,6 +392,6 @@ Figure 10: https://desktop.arcgis.com/en/arcmap/10.3/manage-data/geodatabases/ra
 Figure 12: https://desktop.arcgis.com/en/arcmap/10.3/manage-data/geodatabases/raster-basics.htm, 
 	    https://mgimond.github.io/Spatial/chp02-0.html
 
-Material for cover page:
+**Material for cover page:
 1.	https://images.app.goo.gl/oqQ2ies3WvbBNZDA9
 2.	https://moderndiplomacy.eu/2019/02/26/seize-the-opportunities-of-digital-technology-to-improve-well-being-but-also-address-the-risks/
