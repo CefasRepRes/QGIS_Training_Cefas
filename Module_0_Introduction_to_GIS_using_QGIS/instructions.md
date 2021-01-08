@@ -56,7 +56,7 @@ Within the realm of maps, the world is made up of various features or entities. 
 A Cartesian coordinate system in two dimensions (also called a rectangular coordinate system or an orthogonal coordinate system) is defined by an ordered pair of perpendicular lines (axes), a single unit of length for both axes, and an orientation for each axis.
 The Cartesian coordinates (also called rectangular coordinates) of a point are a pair of numbers (in two-dimensions) that specified signed distances from the coordinate axis. 
 
-![](https://user-images.githubusercontent.com/47147296/104025993-47c9ac00-51bd-11eb-9be9-1d825aeb48bc.png)
+![](https://user-images.githubusercontent.com/47147296/104026035-544e0480-51bd-11eb-8f43-b658df3c3c5e.png)
 
 *Figure 4. Cartesian Grid*
 
@@ -65,7 +65,7 @@ Using this geographic coordinate system, we just need two values to represent a 
 
 ![](https://user-images.githubusercontent.com/47147296/104026071-6039c680-51bd-11eb-9dc7-26d2e1b66704.png)         ![](https://user-images.githubusercontent.com/47147296/104026093-66c83e00-51bd-11eb-949e-20200046edf5.png)
 
-*Figure 5. Geographic coordinate system             Figure 6. Representation of coordinates on cartesian grid*
+*Figure 5. Geographic coordinate system*             		      *Figure 6. Representation of coordinates on cartesian grid*
 
 -	Point in the North-East quadrant: (125, 45) = 125 degrees East and 45 degrees North   
 -	Point in the North-West quadrant: (-125, 45) = 125 degrees West and 45 degrees North   
