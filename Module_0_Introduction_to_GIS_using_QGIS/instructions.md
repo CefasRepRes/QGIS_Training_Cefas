@@ -100,6 +100,7 @@ The “Geographic Information System” refers to the computational systems to m
 
 *Table 1. Non-spatial table
 
+![image](https://user-images.githubusercontent.com/47147296/104035457-10153100-51ca-11eb-9c3b-278f51291709.png)
 
 This table includes a minimum amount information just about the city names, however, we could scale this table both in number of rows, if we add new cities, or adding new columns with new information related to the existing cities in the table (Table 2). 
 
@@ -109,11 +110,13 @@ Following the previous cites table example, we are adding two new columns provid
 
 *Table 2. Extended non-spatial table*
 
+![image](https://user-images.githubusercontent.com/47147296/104035480-186d6c00-51ca-11eb-95ea-99ad69332fd6.png)
 
 Finally, we want to include in the table information related to geographic location of the city. Therefore, we need to add the pair of coordinates that reference the city’s location in the earth spheroid. Since the cities can be represented in a map as a discrete location, we are going to include the columns of “longitude” and “latitude” defining a point geometry pair of coordinates (Table 3). 
 
 *Table 3. Table with longitude and latitude coordinates*
 
+![image](https://user-images.githubusercontent.com/47147296/104035503-1efbe380-51ca-11eb-8700-3094e00b29b8.png)
 
 The geographical coordinates can be provided in several formats, most of which are interpretable by the GIS software. However, independently of which coordinate format we choose, it must be a consistent format within the same table to be correctly read by the GIS software. 
 
@@ -121,12 +124,15 @@ Most common geographical coordinates formats and equivalences are provided in th
 
 *Table 4. Conversion of degrees, minutes and seconds into decimal degrees that can be read as a location by GIS software*
 
+![image](https://user-images.githubusercontent.com/47147296/104035527-258a5b00-51ca-11eb-884e-28c8d5baf02b.png)
 
 The format in which we receive geographical coordinates can vary based on the device used to obtain this information (e.g., GPS, maps, mobile phones, etc.), so it is common to receive location information from multiple sources.  and it is important to verify that the geographical coordinates. 
 
 Consequently, in the table the city’s coordinates were acquired from Wikipedia, and it was provided in “Degrees, minutes and seconds” format.  Since this coordinate format includes characters for degrees, minutes, seconds, and a letter cardinal direction (N, S, E, W), this column is a text type column. To import this table into a GIS software and interpret the coordinates, it is preferable to transform this information into numeric values instead of text (Table 5). 
 
 *Table 5. Table with longitude and latitude converted into decimal degrees (numerical field)*
+
+![image](https://user-images.githubusercontent.com/47147296/104035557-2f13c300-51ca-11eb-9c19-558f64cd37de.png)
 
 
 ### Geometry information as text:
@@ -395,9 +401,8 @@ Figure 8: https://saylordotorg.github.io/text_essentials-of-geographic-informati
 
 Figure 10: https://desktop.arcgis.com/en/arcmap/10.3/manage-data/geodatabases/raster-basics.htm
 
-Figure 12: https://desktop.arcgis.com/en/arcmap/10.3/manage-data/geodatabases/raster-basics.htm, 
-
-	    https://mgimond.github.io/Spatial/chp02-0.html
+Figure 12: https://desktop.arcgis.com/en/arcmap/10.3/manage-data/geodatabases/raster-basics.htm 
+https://mgimond.github.io/Spatial/chp02-0.html
 
 **Material for cover page:**
 
