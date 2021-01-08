@@ -31,13 +31,13 @@ Mental or cognitive maps are psychological tools that we all use every day. As t
 
 **[EXERCISE]** To illustrate this point, pretend that a friend is visiting you from out of town for the first time. Using a blank sheet of paper, take five to ten minutes to draw a map from memory of your hometown that will help your friend get around.
 
-What did you choose to draw on your map? Is your house or where you work on the map? What about streets, restaurants, malls, museums, or other points of interest? How did you draw objects on your map? Did you use symbols, lines, and shapes? Are places labelled? Why did you choose to include certain places and features on your map but not others? What limitations did you encounter when making your map?
+![](https://user-images.githubusercontent.com/47147296/104025934-354f7280-51bd-11eb-8e4d-c1a8f6c2ef88.png) What did you choose to draw on your map? Is your house or where you work on the map? What about streets, restaurants, malls, museums, or other points of interest? How did you draw objects on your map? Did you use symbols, lines, and shapes? Are places labelled? Why did you choose to include certain places and features on your map but not others? What limitations did you encounter when making your map?
 
 This simple exercise is instructive for several reasons. First, it illustrates what you know about where you live. Your simple map is a rough approximation of your local geographic knowledge and a mental map. Second, it highlights the way in which you relate to your local environment. What you choose to include and exclude on your map provides insights about what places you think are important and how you move through your place of residence. Third, if we were to compare your mental map to someone else’s from the same place, certain similarities emerge that shed light upon how we as humans tend to think spatially and organize geographical information in our minds. Fourth, this exercise reveals something about your artistic, creative, and cartographic abilities. In this respect, not only are mental maps unique, but also the way in which such maps are drawn or represented on the page is unique too.
 
 Imagine you are going to an international conference and someone from another country ask you to draw where Cefas is located. Probably you aren’t going to draw in detail the train station and the roads to reach Cefas building, instead your mental map would picture the location of Lowestoft and then you would describe Lowestoft by giving some attributes about the location (e.g., population, beach, building description, etc). Without knowing it, you have created the basic geographic information system, this means a **location and a set of attributes related to this location**. 
 
-
+![](https://user-images.githubusercontent.com/47147296/104025964-3ed8da80-51bd-11eb-838b-7fd7ff575610.png)
 
 *Figure 2. Location of cities*
 
@@ -48,6 +48,7 @@ Mental maps are awesome, think now that you are asked to draw again the location
 The process of moving from the “real world” to the world of maps is referred to as map abstraction.
 Within the realm of maps, the world is made up of various features or entities. Such entities include but are not restricted to fire hydrants, caves, roads, rivers, lakes, hills, valleys, or oceans. Moreover, such features have a form, and more precisely, a geometric form. For instance, fire hydrants and geysers are considered point-like features; rivers and streams are linear features; and lakes, countries, and forests are areal features.
 
+![](https://user-images.githubusercontent.com/47147296/104025993-47c9ac00-51bd-11eb-9be9-1d825aeb48bc.png)
 
 *Figure 3. Oulton Broad from above*
 
@@ -55,9 +56,14 @@ Within the realm of maps, the world is made up of various features or entities. 
 A Cartesian coordinate system in two dimensions (also called a rectangular coordinate system or an orthogonal coordinate system) is defined by an ordered pair of perpendicular lines (axes), a single unit of length for both axes, and an orientation for each axis.
 The Cartesian coordinates (also called rectangular coordinates) of a point are a pair of numbers (in two-dimensions) that specified signed distances from the coordinate axis. 
 
+![](https://user-images.githubusercontent.com/47147296/104025993-47c9ac00-51bd-11eb-9be9-1d825aeb48bc.png)
+
+*Figure 4. Cartesian Grid*
+
 In a similar way, we can think about a cartesian coordinate system representing the earth surface in a 2-dimensional plane. In this 2D geographic coordinate system the Y-axis represents the latitudes and the X-axis the longitudes. These coordinates represent the angular distance in decimal degrees geographical units. The latitudes are representing the angular distance from the Equator parallel (origin of the latitudes) and are limited up to 90 degrees North (positive values) and 90 degrees South (negative values), coincidence with location of the earth poles. The longitudes are representing the angular distance from Greenwich Meridian  (origin of the longitudes) and are limited between 180 degrees to the east (positive values) and 180 degrees to the west (negative values).
 Using this geographic coordinate system, we just need two values to represent a position (a point) in the sphere, the pair of coordinates representing longitude (x) and latitude (y). Examples: 
 
+![](https://user-images.githubusercontent.com/47147296/104026071-6039c680-51bd-11eb-9dc7-26d2e1b66704.png)         ![](https://user-images.githubusercontent.com/47147296/104026093-66c83e00-51bd-11eb-949e-20200046edf5.png)
 
 *Figure 5. Geographic coordinate system             Figure 6. Representation of coordinates on cartesian grid*
 
@@ -69,16 +75,21 @@ Using this geographic coordinate system, we just need two values to represent a 
 
 Understanding how we can reference a unique position (a point) in the plane representing the terrestrial sphere, we can introduce the concept of spatial vector data.  The main unit of the vector data is the point, and the other vector data types are lines and polygons. Lines consist of more than one point (vertex) and a path (line) that links these vertices. Polygons are formed by more than 2 points (vertex) and paths (edges) that link these vertices, in a polygon the last vertex is located in the same position than the first, creating a closed-shape feature.  
 
-
+![](https://user-images.githubusercontent.com/47147296/104026130-7051a600-51bd-11eb-8aff-4fd968bf6bb3.png)
 
 *Figure 7. GIS representation of points, polylines, and polygons*
 
 # Vector Spatial Data Model
 
-There are three fundamental vector types that exist in geographic information systems (GISs): points, lines, and polygons.
+There are three fundamental vector types that exist in geographic information systems (GISs): **points, lines, and polygons**.
+
+![](https://user-images.githubusercontent.com/47147296/104026165-79db0e00-51bd-11eb-8693-2bece778686f.png)
+
+*Figure 8. Points, Lines and Polygons*
+
 Points are zero-dimensional objects that contain only a single coordinate pair. Points are typically used to model singular, discrete features such as buildings, wells, power poles, sample locations, and so forth. Points have only the property of location. 
+
  Lines are one-dimensional features composed of multiple, explicitly connected points. Lines are used to represent linear features such as roads, streams, faults, boundaries, and so forth. Lines have the property of length. Lines that directly connect two nodes are sometimes referred to as chains, edges, segments, or arcs.
-Figure 8. Points, Lines and Polygons
 
 Polygons are two-dimensional features created by multiple lines that loop back to create a “closed” feature. In the case of polygons, the first coordinate pair (point) on the first line segment is the same as the last coordinate pair on the last line segment. Polygons are used to represent features such as city boundaries, geologic formations, lakes, soil associations, vegetation communities, and so forth. Polygons have the properties of area and perimeter. Polygons are also called areas.
 Other types of point features include the node and the vertex. Specifically, a point is a stand-alone feature, while a node is a topological junction representing a common X, Y coordinate pair between intersecting lines and/or polygons. Vertices are defined as each bend along a line or polygon feature that is not the intersection of lines or polygons.
@@ -128,6 +139,8 @@ c.	('<span style="color: green;">POLYGON</span> ((<span style="color: red;">0 0,
 
 The above examples correspond to the following geometries: 
  
+![](https://user-images.githubusercontent.com/47147296/104026229-8a8b8400-51bd-11eb-889f-bff0c1bc3464.png)
+ 
 Figure 9. Representation of WKT as vector geometries                                                                                        
 
 The WKT format allows for vector geometry to be stored in a database, facilitating visualisation and analysis of geometries from within a geodatabase. Spatial databases store geometry data in a binary (numerical) format, that can be translated to and from WKT so it can be read and understood.  
@@ -160,9 +173,13 @@ There are some other common formats for storing GIS data:
 
 A raster dataset is an array of rectangular cells with each cell containing a value that represents data This matrix of cells (or pixels) is organised into rows and columns. 
 
+![](https://user-images.githubusercontent.com/47147296/104026265-95461900-51bd-11eb-93e0-d2dbbc9712fe.png)
+
 Figure 10. Thematic raster with associated values
 
 The data in a cell is known as a Digital Number (DN) or pixel value and can represent a wide variety of geographical data. Raster data can represent discrete thematic data categorized into a classification such as substrate type (a) and can also represent continuous data such as temperature, depth, or spectral data (b). 
+ 
+![](https://user-images.githubusercontent.com/47147296/104026298-9d9e5400-51bd-11eb-9296-04e8bc63a78a.png) 
  
 Figure 11.  a) discrete substrate data and b) continuous bathymetry. 
 
@@ -178,11 +195,11 @@ There are many raster file formats that differ in type of compression, attribute
 
 ### Raster vs Vector Data
 
+![](https://user-images.githubusercontent.com/47147296/104026321-a7c05280-51bd-11eb-80cf-e91ebd28bcc0.png)
  
 Figure 12. Objects represented in the vector and Raster format.
 
 The above images represent the same real-life objects presented as vector and raster datasets. The accuracy of raster data is deteremined by the spatial resolution. The spatial resolution of a raster is the size each cell represents on the ground.  The quality of a vector is deteremined by the accuracy of the digitization process that created the polygons or the accuracy of the coordinates used to create the vertices.
-
 
 
 
@@ -192,15 +209,21 @@ Having geometry information stored in a table allows us to perform geometric and
 
 Intersection – returns the portion of two or more geometries that are shared or overlap. All features that overlap will be part of the output feature, and their attributes will be preserved. 
 
+![](https://user-images.githubusercontent.com/47147296/104026357-b3ac1480-51bd-11eb-9cd8-fea1cf284b1c.png)
+
 Figure 13. Example of QGIS intersection operation
 
 We start with a single polygon (a) and add a second polygon with a portion that overlaps our first (b). Performing an intersection creates a third polygon (c) which is the portion of polygons a and b which overlap (d). 
 
 Union – joins geometries and returns a new geometry that is the combination of the inputs. 
 
+![](https://user-images.githubusercontent.com/47147296/104026382-bc9ce600-51bd-11eb-8285-594524f5b717.png)
+
 Figure 14. Example of QGIS Union operation
 
 Buffer – returns a new geometry where the vectors are a specified distance from our existing geometry’s vectors. It creates a buffer ‘around’ our existing geometries. The result of a buffer is a polygon, despite the input geometry. 
+
+![](https://user-images.githubusercontent.com/47147296/104026411-c6bee480-51bd-11eb-9bc4-fcb8014f7078.png)
 
 Figure 15. Example of QGIS buffer operation
 
