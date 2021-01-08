@@ -313,7 +313,8 @@ Within the attribute table, editing can be done by clicking on the pencil in the
 ## 5.	Saving and Exporting Data
 
 5.1.	Saving a Project
-Saving your project will save all the layers in your QGIS project in their current states, as well as all the settings, such as CRS and any preferences. To save your project you can click Project > Save, click the   button, or simply use Ctrl + S on your keyboard. 
+
+Saving your project will save all the layers in your QGIS project in their current states, as well as all the settings, such as CRS and any preferences. To save your project you can click **Project > Save**, click the   button, or simply use Ctrl + S on your keyboard. 
 
 5.2.	Saving your data
 
