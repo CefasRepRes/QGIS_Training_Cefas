@@ -381,17 +381,26 @@ To export a vector or raster layer; right click on your layer and select Export 
 
 ##Links
 
-**Figures in text:
+**Figures in text:**
 
 Figure 1: https://saylordotorg.github.io/text_essentials-of-geographic-information-systems/s05-01-spatial-thinking.html
+
 Figure 4: https://en.wikipedia.org/wiki/Cartesian_coordinate_system
+
 Figure 5: https://help.perforce.com/visualization/jviews/8.10/jviews-maps810/doc/html/en-US/Content/Visualization/Documentation/JViews/JViews_Maps/_pubskel/ps_usrintmaps81.html
+
 Figure 7: https://slideplayer.com/slide/17655716/105/images/19/GIS+Theory+%E2%80%93+Spatial+Data+Types.jpg
+
 Figure 8: https://saylordotorg.github.io/text_essentials-of-geographic-information-systems/s08-02-vector-data-models.html
+
 Figure 10: https://desktop.arcgis.com/en/arcmap/10.3/manage-data/geodatabases/raster-basics.htm
+
 Figure 12: https://desktop.arcgis.com/en/arcmap/10.3/manage-data/geodatabases/raster-basics.htm, 
+
 	    https://mgimond.github.io/Spatial/chp02-0.html
 
-**Material for cover page:
+**Material for cover page:**
+
 1.	https://images.app.goo.gl/oqQ2ies3WvbBNZDA9
+
 2.	https://moderndiplomacy.eu/2019/02/26/seize-the-opportunities-of-digital-technology-to-improve-well-being-but-also-address-the-risks/
