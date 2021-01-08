@@ -1,9 +1,3 @@
----
-output:
-  html_document:
-    df_print: paged
-  pdf_document: default
----
 
 # QGIS Training Module 0 -Introduction to GIS and QGIS
 
@@ -21,7 +15,8 @@ In this module we introduce the concept of thinking spatially, and how we associ
 ### Data Folder 
 
 Please, create your own working space on your local drive and save the data and instructions for this module from \\lowfilecds\Function\GIS\Training\QGIS\Module0_Introduction_to_QGIS\. The data folder contains the following, required for the tutorial section of this module:
-•	world_boundaries.shp
+
+*	world_boundaries.shp
 
 For the tutorial section of this module, please skip to here.
 
@@ -128,7 +123,7 @@ Consequently, in the table the city’s coordinates were acquired from Wikipedia
 
 Well-known text (WKT) is a way of representing vector geometry as text. There are three elements of WKT that can describe an objects geometry: <span style="color: green;">the type of geometry</span> (point, line, or polygon), <span style="color: red;">the coordinates of the vertices</span>, and <span style="color: blue;">the spatial reference</span>. For example.
 
-a.	('<span style="color: green;">POINT</span> (<span style="color: red;">0 0</span>)')
+a.	('\textcolor{green}{POINT} (0 0)')
 b.	('<span style="color: green;">LINESTRING</span> (<span style="color: red;">0 0.5, 0.25 0, 0.5 0.5</span>)')
 c.	('<span style="color: green;">POLYGON</span> ((<span style="color: red;">0 0, 0 0.5, 0.5 0.5, 0.5 0, 0 0</span>))',<span style="color: blue;">4326</span>)
 
