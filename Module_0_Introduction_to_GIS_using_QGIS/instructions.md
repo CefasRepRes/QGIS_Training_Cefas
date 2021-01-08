@@ -1,4 +1,3 @@
-
 # QGIS Training Module 0 -Introduction to GIS and QGIS
 
 Some of this text was adapted by Saylor Academy under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License without attribution as requested by the work's original creator or licensor.
@@ -14,7 +13,7 @@ In this module we introduce the concept of thinking spatially, and how we associ
 
 ### Data Folder 
 
-Please, create your own working space on your local drive and save the data and instructions for this module from \\lowfilecds\Function\GIS\Training\QGIS\Module0_Introduction_to_QGIS\. The data folder contains the following, required for the tutorial section of this module:
+Please, create your own working space on your local drive and save the data and instructions for this module from  The data folder contains the following, required for the tutorial section of this module:
 
 *	world_boundaries.shp
 
@@ -123,7 +122,7 @@ Consequently, in the table the city’s coordinates were acquired from Wikipedia
 
 Well-known text (WKT) is a way of representing vector geometry as text. There are three elements of WKT that can describe an objects geometry: <span style="color: green;">the type of geometry</span> (point, line, or polygon), <span style="color: red;">the coordinates of the vertices</span>, and <span style="color: blue;">the spatial reference</span>. For example.
 
-a.	('\textcolor{green}{POINT} (0 0)')
+a.	('<span style="color: green;">POINT</span> (<span style="color: red;">0 0</span>)')
 b.	('<span style="color: green;">LINESTRING</span> (<span style="color: red;">0 0.5, 0.25 0, 0.5 0.5</span>)')
 c.	('<span style="color: green;">POLYGON</span> ((<span style="color: red;">0 0, 0 0.5, 0.5 0.5, 0.5 0, 0 0</span>))',<span style="color: blue;">4326</span>)
 
@@ -343,6 +342,3 @@ Figure 12: https://desktop.arcgis.com/en/arcmap/10.3/manage-data/geodatabases/ra
 Material for cover page:
 1.	https://images.app.goo.gl/oqQ2ies3WvbBNZDA9
 2.	https://moderndiplomacy.eu/2019/02/26/seize-the-opportunities-of-digital-technology-to-improve-well-being-but-also-address-the-risks/
-
-
-
