@@ -13,9 +13,18 @@ In this module we introduce the concept of thinking spatially, and how we associ
 
 ### Data Folder 
 
-Please, create your own working space on your local drive and save the data and instructions for this module from  The data folder contains the following, required for the tutorial section of this module:
+Please, create your own working space on your local drive and save the data and instructions for this module. To access the data, please contact gissupport@cefas.co.uk. The data folder contains the following, required for the tutorial section of this module:
 
 *	world_boundaries.shp
+
+
+**Metadata**:
+
+|Natue of Data| Name | Source | Citation | Licence | Source Link | Data Processing |Date accessed 
+| --- |  --- | --- | --- | --- | --- | --- | --- |
+|World Administrative Boundaries|world_boundaries.shp|Natural Earth|Made with Natural Earth. Free vector and raster map data @ naturalearthdata.com.  |Public Domain|https://www.naturalearthdata.com/downloads/50m-cultural-vectors/50m-admin-0-countries-2/|No|2020|
+
+*OGL- Open Government Licence: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
 
 For the tutorial section of this module, please skip to here.
 
@@ -385,7 +394,7 @@ To export a vector or raster layer; right click on your layer and select Export 
 
 
 
-##Links
+## 6. Links
 
 **Figures in text:**
 
@@ -409,3 +418,7 @@ https://mgimond.github.io/Spatial/chp02-0.html
 1.	https://images.app.goo.gl/oqQ2ies3WvbBNZDA9
 
 2.	https://moderndiplomacy.eu/2019/02/26/seize-the-opportunities-of-digital-technology-to-improve-well-being-but-also-address-the-risks/
+
+## 7. Authors
+
+William Procter and Roi Martinez
