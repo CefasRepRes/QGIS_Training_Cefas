@@ -24,13 +24,9 @@ Please, create your own working space on your local drive and save the data and 
 | --- |  --- | --- | --- | --- | --- | --- | --- |
 |World Administrative Boundaries|world_boundaries.shp|Natural Earth|Made with Natural Earth. Free vector and raster map data @ naturalearthdata.com.  |Public Domain|https://www.naturalearthdata.com/downloads/50m-cultural-vectors/50m-admin-0-countries-2/|No|2020|
 
-*OGL- Open Government Licence: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
-
-For the tutorial section of this module, please skip to here.
-
 ---
 
-# Spatial Thinking
+# Introduction to Spatial Thinking
 
 At no other time in the history of the world has it been easier to create or acquire a map of nearly anything. Maps and mapping technology are physically and virtually everywhere. Though the modes and means of making and distributing maps have been revolutionized with recent advances in computing, the art and science of map making date back centuries. This is because humans are inherently spatial organisms, and to live in the world, we must first somehow relate to it. 
 
